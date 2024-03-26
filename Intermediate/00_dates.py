@@ -38,3 +38,7 @@ current_date = date(current_date.year, current_date.month +1, current_date.day)
 
 print (current_date.month)
 
+from datetime import timedelta
+
+time_delta = timedelta() # es para trabajar con franjas de fechas
+
