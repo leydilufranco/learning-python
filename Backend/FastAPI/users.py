@@ -56,10 +56,7 @@ async def user(id: int):
 
 @app.post ("/user/")
 async def user(user: User):
-    if type(search_user(user.id)) == User:
-        return {"error": "No se encontraron errores"}
-    else:
-        users_list.append(user)
+    users_list.append(user)
 
 
 def search_user (id:int):
