@@ -12,6 +12,8 @@ async def root():
     return {"url":"https://leydifranco.com/python"}
 
 
+
+
 ## Iniciar el server: uvicorn main:app --reload
 ## Detener el server CTR+C
 ## Documentacion con Swagger http://127.0.0.1:8000/docs
